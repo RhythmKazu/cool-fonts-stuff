@@ -7,7 +7,7 @@
  * @BDEditor Frosted Glass
 */
 
-@import url('https://github.com/RhythmKazu/cool-fonts-stuff/themes/TheWorldMachine/fonts/Terminus.ttf')
+@import url('https://github.com/RhythmKazu/cool-themes-stuff/themes/TheWorldMachine/font/Terminus.ttf')
 @import url('https://discordstyles.github.io/FrostedGlass/FrostedGlass.css');
 @import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
@@ -54,4 +54,6 @@
   --rs-phone-visible: block;
 }
 
-
+* {
+  font-family: var(--font)
+    }
